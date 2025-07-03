@@ -1,0 +1,90 @@
+body {
+    background-color: #f8f9fa;
+    background-size: cover; /* This makes the background image cover the entire element */
+    background-position: center; /* This centers the image */
+    background-repeat:repeat; /* This prevents the image from repeating */
+    height: 100vh; /* This sets the height of the body to 100% of the viewport height */
+    margin: 0; 
+    background-image: url('bg.jpeg');
+}
+.scroll-container {
+    height: 50vh;
+    overflow-y: auto;
+    background: rgba(191,9,4, 0.9);
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+.haa {
+    display: flex;
+    align-items: center;
+    background-color:rgba(196,162,135, 0.9);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.haa img {
+    margin-right: 10px;
+    width: 30px;
+    height: auto;
+}
+.content {
+    color: white;
+}
+.half-screen {
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+    
+}
+.content1{
+    color: #ffffff;
+    background-color: rgba(191,9,4, 0.9);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar-brand img {
+    height: 40px;
+}
+.navbar-text {
+    flex-grow: 1;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+@media (min-width: 992px) {
+    .navbar-text {
+        text-align: left;
+    }
+}
+img{
+    width: 100%;
+    
+
+}
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+.footer img {
+    width: 50%;
+    margin-bottom: 10px;
+}
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
